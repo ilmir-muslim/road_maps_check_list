@@ -7,4 +7,5 @@ bot = telebot.TeleBot(TOKEN)
 def start(message):
     bot.send_message(message.chat.id, 'Категорически приветствую, бот запущен!')
 
+
 bot.polling(none_stop=True)
