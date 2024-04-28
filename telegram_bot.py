@@ -1,6 +1,4 @@
 from datetime import datetime
-import Dispatcher
-from telegram.ext import Updater, CommandHandler, MessageHandler, filters
 import telebot
 import TOKEN
 from add_new_member_to_json import add_data_to_json
@@ -14,6 +12,7 @@ def start(message):
     bot.send_message(message.chat.id, 'Категорически приветствую, бот запущен!')
 
 
+@bot.message_handler(content_types=['new_chat_members'])
 async def on_new_chat_members(update, context):
     new_members = update.message.new_chat_members
     for member in new_members:
@@ -23,9 +22,4 @@ async def on_new_chat_members(update, context):
         await add_data_to_json(users_name, join_date)
 
 
-updater = Updater(TOKEN, use_context=True)
-dp = Dispatcher(updater)
-dp.add_handler(MessageHandler(filters.ChatType.GROUP, on_new_chat_members, run_async=True))
-updater.start_polling()
-updater.idle()
-bot.polling(none_stop=True)
+bot.infinity_polling(none_stop=True)
