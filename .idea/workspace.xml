@@ -4,11 +4,412 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dae2153-de32-4ede-974e-82b5dbfcac37" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="4dae2153-de32-4ede-974e-82b5dbfcac37" name="Changes" comment="в процессе: написание словаря road_map, для создания json файла с этими данными, который далее будет использоваться для отслеживания прогресса учащихся">
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/MessageHandler-1.0.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/MessageHandler-1.0.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/MessageHandler-1.0.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/MessageHandler-1.0.2.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/MessageHandler-1.0.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/MessageHandler-1.0.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio-4.3.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio-4.3.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio-4.3.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio-4.3.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio-4.3.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio-4.3.0.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio-4.3.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/_backends/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/_backends/_asyncio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/_backends/_trio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/_core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/_core/_eventloop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/_core/_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/_core/_fileio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/_core/_resources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/_core/_signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/_core/_sockets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/_core/_streams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/_core/_subprocesses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/_core/_synchronization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/_core/_tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/_core/_testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/_core/_typedattr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/abc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/abc/_eventloop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/abc/_resources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/abc/_sockets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/abc/_streams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/abc/_subprocesses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/abc/_tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/abc/_testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/from_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/lowlevel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/pytest_plugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/streams/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/streams/buffered.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/streams/file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/streams/memory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/streams/stapled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/streams/text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/streams/tls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/to_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/anyio/to_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/dispatch/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/dispatch/dispatcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/dispatch/saferef.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/dispatcher-1.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/dispatcher-1.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/dispatcher-1.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/dispatcher-1.0.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/dispatcher-1.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/dispatcher-1.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/exceptiongroup-1.2.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/exceptiongroup-1.2.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/exceptiongroup-1.2.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/exceptiongroup-1.2.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/exceptiongroup-1.2.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/exceptiongroup/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/exceptiongroup/_catch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/exceptiongroup/_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/exceptiongroup/_formatting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/exceptiongroup/_suppress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/exceptiongroup/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/exceptiongroup/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11-0.14.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11-0.14.0.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11-0.14.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11-0.14.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11-0.14.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11-0.14.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/_abnf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/_headers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/_readers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/_receivebuffer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/_state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/_writers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/tests/data/test-file" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/tests/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/tests/test_against_stdlib_http.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/tests/test_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/tests/test_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/tests/test_headers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/tests/test_helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/tests/test_io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/tests/test_receivebuffer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/tests/test_state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/h11/tests/test_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/handler/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore-1.0.5.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore-1.0.5.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore-1.0.5.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore-1.0.5.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore-1.0.5.dist-info/licenses/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_async/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_async/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_async/http2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_async/http_proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_async/interfaces.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_async/socks_proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_backends/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_backends/anyio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_backends/auto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_backends/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_backends/mock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_backends/sync.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_backends/trio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_ssl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_sync/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_sync/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_sync/http11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_sync/http2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_sync/http_proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_sync/interfaces.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_sync/socks_proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_synchronization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_trace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpcore/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx-0.27.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx-0.27.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx-0.27.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx-0.27.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx-0.27.0.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx-0.27.0.dist-info/licenses/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/__version__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_decoders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_multipart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_status_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_transports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_transports/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_transports/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_transports/default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_transports/mock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_transports/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_urlparse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/httpx/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/python_telegram_bot-21.1.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/python_telegram_bot-21.1.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/python_telegram_bot-21.1.1.dist-info/LICENSE.dual" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/python_telegram_bot-21.1.1.dist-info/LICENSE.lesser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/python_telegram_bot-21.1.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/python_telegram_bot-21.1.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/python_telegram_bot-21.1.1.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/python_telegram_bot-21.1.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/python_telegram_bot-21.1.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/sniffio-1.3.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/sniffio-1.3.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/sniffio-1.3.1.dist-info/LICENSE.APACHE2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/sniffio-1.3.1.dist-info/LICENSE.MIT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/sniffio-1.3.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/sniffio-1.3.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/sniffio-1.3.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/sniffio-1.3.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/sniffio/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/sniffio/_impl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/sniffio/_tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/sniffio/_tests/test_sniffio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/sniffio/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/sniffio/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram-0.0.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram-0.0.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram-0.0.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram-0.0.1.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram-0.0.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram-0.0.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_birthdate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_bot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_botcommand.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_botcommandscope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_botdescription.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_botname.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_business.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_callbackquery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_chat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_chatadministratorrights.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_chatboost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_chatinvitelink.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_chatjoinrequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_chatlocation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_chatmember.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_chatmemberupdated.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_chatpermissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_choseninlineresult.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_dice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/_basemedium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/_basethumbedmedium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/animation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/audio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/chatphoto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/document.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/inputfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/inputmedia.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/inputsticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/location.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/photosize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/sticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/venue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/videonote.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_files/voice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_forcereply.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_forumtopic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_games/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_games/callbackgame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_games/game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_games/gamehighscore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_giveaway.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinekeyboardbutton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinekeyboardmarkup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresult.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultarticle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultaudio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultcachedaudio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultcacheddocument.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultcachedgif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultcachedmpeg4gif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultcachedphoto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultcachedsticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultcachedvideo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultcachedvoice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultcontact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultdocument.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultgame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultgif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultlocation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultmpeg4gif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultphoto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultsbutton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultvenue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultvideo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inlinequeryresultvoice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inputcontactmessagecontent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inputinvoicemessagecontent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inputlocationmessagecontent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inputmessagecontent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inputtextmessagecontent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_inline/inputvenuemessagecontent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_keyboardbutton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_keyboardbuttonpolltype.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_keyboardbuttonrequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_linkpreviewoptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_loginurl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_menubutton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_messageautodeletetimerchanged.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_messageentity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_messageid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_messageorigin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_messagereactionupdated.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_passport/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_passport/credentials.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_passport/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_passport/encryptedpassportelement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_passport/passportdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_passport/passportelementerrors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_passport/passportfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_payment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_payment/invoice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_payment/labeledprice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_payment/orderinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_payment/precheckoutquery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_payment/shippingaddress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_payment/shippingoption.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_payment/shippingquery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_payment/successfulpayment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_poll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_proximityalerttriggered.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_reaction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_reply.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_replykeyboardmarkup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_replykeyboardremove.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_sentwebappmessage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_shared.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_story.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_switchinlinequerychosenchat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_telegramobject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_userprofilephotos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_utils/argumentparsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_utils/datetime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_utils/defaultvalue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_utils/enum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_utils/files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_utils/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_utils/markup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_utils/repr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_utils/strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_utils/types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_utils/warnings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_utils/warnings_transition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_videochat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_webappdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_webappinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_webhookinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/_writeaccessallowed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_aioratelimiter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_applicationbuilder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_basepersistence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_baseratelimiter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_baseupdateprocessor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_callbackcontext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_callbackdatacache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_contexttypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_defaults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_dictpersistence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_extbot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/basehandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/businessconnectionhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/businessmessagesdeletedhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/callbackqueryhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/chatboosthandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/chatjoinrequesthandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/chatmemberhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/choseninlineresulthandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/commandhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/conversationhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/inlinequeryhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/messagehandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/messagereactionhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/pollanswerhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/pollhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/precheckoutqueryhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/prefixhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/shippingqueryhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/stringcommandhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/stringregexhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_handlers/typehandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_jobqueue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_picklepersistence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_updater.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_utils/_update_parsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_utils/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_utils/trackingdict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_utils/types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/_utils/webhookhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/ext/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/request/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/request/_baserequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/request/_httpxrequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/request/_requestdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/request/_requestparameter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/telegram/warnings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/typing_extensions-4.11.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/typing_extensions-4.11.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/typing_extensions-4.11.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/typing_extensions-4.11.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/typing_extensions-4.11.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/typing_extensions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/road_map.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/members.json" beforeDir="false" afterPath="$PROJECT_DIR$/members.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/members_dict_creating.py" beforeDir="false" afterPath="$PROJECT_DIR$/members_dict_creating.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/road_map_dict_creating.py" beforeDir="false" afterPath="$PROJECT_DIR$/road_map_dict_creating.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/telegram_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/telegram_bot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +427,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="new_functions_added_on_a_bot" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,17 +455,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.main.executor": "Run",
-    "Python.members_dict_creating.executor": "Run",
-    "Python.telegram_bot.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "new__functions__added__on__a__bot",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.members_dict_creating.executor&quot;: &quot;Run&quot;,
+    &quot;Python.road_map_dict_creating.executor&quot;: &quot;Run&quot;,
+    &quot;Python.telegram_bot.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;add__new__member__to__json(func)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -113,7 +515,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714149709022</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1714211441251</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714211441251</updated>
+    </task>
+    <task id="LOCAL-00006" summary="в процессе: написание словаря road_map, для создания json файла с этими данными, который далее будет использоваться для отслеживания прогресса учащихся">
+      <option name="closed" value="true" />
+      <created>1714212959886</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714212959886</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +548,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="в процессе: написание словаря road_map, для создания json файла с этими данными, который далее будет использоваться для отслеживания прогресса учащихся" />
+    <option name="LAST_COMMIT_MESSAGE" value="в процессе: написание словаря road_map, для создания json файла с этими данными, который далее будет использоваться для отслеживания прогресса учащихся" />
   </component>
 </project>
