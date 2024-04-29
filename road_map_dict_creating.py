@@ -41,4 +41,4 @@ road_map = [
 
 #запись словаря в файл
 with open("road_map.json", "w") as file:
-    json.dump(road_map, file)
+    json.dump(road_map, file, ensure_ascii=False, indent=4)

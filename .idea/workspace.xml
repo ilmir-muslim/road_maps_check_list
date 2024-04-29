@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dae2153-de32-4ede-974e-82b5dbfcac37" name="Changes" comment="доработал добавление новых участников группы в базу">
-      <change afterPath="$PROJECT_DIR$/count_studing_days.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studing_stage.py" afterDir="false" />
+    <list default="true" id="4dae2153-de32-4ede-974e-82b5dbfcac37" name="Changes" comment="начал елать функции продчета дней, которые проучился участник и определения на каком этапе он находится (нужно доделать)">
+      <change afterPath="$PROJECT_DIR$/manipulate_ with_json.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_new_member_to_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/add_new_member_to_json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/telegram_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/telegram_bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add_new_member_to_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/count_studing_days.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/members.json" beforeDir="false" afterPath="$PROJECT_DIR$/members.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/members_dict_creating.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/road_map.json" beforeDir="false" afterPath="$PROJECT_DIR$/road_map.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/road_map_dict_creating.py" beforeDir="false" afterPath="$PROJECT_DIR$/road_map_dict_creating.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studing_stage.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,18 +58,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.members_dict_creating.executor&quot;: &quot;Run&quot;,
-    &quot;Python.road_map_dict_creating.executor&quot;: &quot;Run&quot;,
-    &quot;Python.telegram_bot.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;no__ideas__for__naming__branch&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.count_studing_days.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.members_dict_creating.executor": "Run",
+    "Python.road_map_dict_creating.executor": "Run",
+    "Python.studying_stage.executor": "Run",
+    "Python.telegram_bot.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "no__ideas__for__naming__branch",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -146,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714283181760</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="начал елать функции продчета дней, которые проучился участник и определения на каком этапе он находится (нужно доделать)">
+      <option name="closed" value="true" />
+      <created>1714307798592</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714307798592</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +180,7 @@
     <MESSAGE value="в процессе: написание словаря road_map, для создания json файла с этими данными, который далее будет использоваться для отслеживания прогресса учащихся" />
     <MESSAGE value="добавил json файл содержащий road map написал функции для добавления новых участников" />
     <MESSAGE value="доработал добавление новых участников группы в базу" />
-    <option name="LAST_COMMIT_MESSAGE" value="доработал добавление новых участников группы в базу" />
+    <MESSAGE value="начал елать функции продчета дней, которые проучился участник и определения на каком этапе он находится (нужно доделать)" />
+    <option name="LAST_COMMIT_MESSAGE" value="начал елать функции продчета дней, которые проучился участник и определения на каком этапе он находится (нужно доделать)" />
   </component>
 </project>
