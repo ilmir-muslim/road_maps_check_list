@@ -1,8 +1,10 @@
 from datetime import datetime
-import telebot
-import TOKEN
-from add_new_member_to_json import add_data_to_json
 
+import telebot
+
+import TOKEN
+
+import manipulate_with_json as manipulate
 TOKEN = TOKEN.TOKEN
 bot = telebot.TeleBot(TOKEN)
 
@@ -19,7 +21,7 @@ async def on_new_chat_members(update, context):
         await update.message.reply_text(f"Добро пожаловать, {member.first_name}!")
         join_date = datetime.utcfromtimestamp(member.date).strftime('%d-%m-%Y')
         users_name = member.first_name
-        await add_data_to_json(users_name, join_date) #добавление нового участника в файлs
+        await manipulate.add_data_to_json(users_name, join_date) #добавление нового участника в файлs
 
 
 bot.infinity_polling(none_stop=True)
