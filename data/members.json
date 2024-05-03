@@ -1,11 +1,5 @@
 [
     {
-        "name": "Никита",
-        "added_date": "",
-        "current_progress": "0",
-        "studying_stage": null
-    },
-    {
         "name": "Ильмир",
         "added_date": "25.03.2024",
         "current_progress": "35",
@@ -30,12 +24,6 @@
         "studying_stage": "практические задания на структуры данных"
     },
     {
-        "name": "Артём",
-        "added_date": "",
-        "current_progress": "0",
-        "studying_stage": null
-    },
-    {
         "name": "Р Ш",
         "added_date": "19.02.2024",
         "current_progress": "70",
@@ -58,11 +46,5 @@
         "added_date": "28.03.2024",
         "current_progress": "32",
         "studying_stage": "Область видимости переменных, локальные и глобальные переменные"
-    },
-    {
-        "name": "🐝",
-        "added_date": "",
-        "current_progress": "0",
-        "studying_stage": null
     }
 ]
