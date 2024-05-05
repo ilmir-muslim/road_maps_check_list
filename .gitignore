@@ -1,3 +1,5 @@
 TOKEN.py
 .idea
 .venv
+/data_tests
+tests.py
