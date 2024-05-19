@@ -1,5 +1,6 @@
 TOKEN.py
-.idea
-.venv
-/data_tests
+.idea/
+.venv/
+data_tests/
 tests.py
+.gitignore
