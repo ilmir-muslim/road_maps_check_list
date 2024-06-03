@@ -1,52 +1,66 @@
-import json
 import datetime
+import sqlite3
 
 
 class StudentData:
-    def __init__(self, members_json: str = 'data_tests/members.json', road_map_json: str = 'data_tests/road_map.json'):
-        self.members_json = members_json
-        self.road_map_json = road_map_json
+    def __init__(self):
+        self.conn = sqlite3.connect('data_tests/data.db')
+        self.cursor = self.conn.cursor()
 
-    def update_json(self):
-        with open(self.members_json, "r") as file:
-            members = json.load(file)
+    def add_data_to_db(self, user_id, name: str, added_date: str):
+        self.cursor.execute("INSERT INTO members VALUES (?, ?, ?, ?, ?)",
+                            (user_id, name, added_date, 1, 1))
+        self.conn.commit()
 
-        for i, member in enumerate(members):
-            if int(self.studying_days(member['added_date'])) < 91:
-                members[i]['current_progress'] = self.studying_days(members[i]['added_date'])
-            elif members[i]['current_progress'] > 90:
-                members.pop(i)
+    # Получение всех данных о студентах из базы данных
+    def get_user_id(self):
+        self.cursor.execute("SELECT user_id FROM members")
+        result = self.cursor.fetchall()
+        list_of_tuples = result
+        ids = [item[0] for item in list_of_tuples]
+        print(ids)
+        return ids
 
-        with open(self.members_json, "w") as file:
-            json.dump(members, file, ensure_ascii=False, indent=4)
+    def get_added_date(self, user_id):
+        self.cursor.execute("SELECT added_date FROM members WHERE user_id = ?", (user_id,))
+        result = self.cursor.fetchall()
+        return result[0][0]
 
-    def studying_stage(self, studying_days: str):
-        with open(self.road_map_json, "r") as file:
-            road_map = json.load(file)
+    def get_current_progress(self, user_id):
+        self.cursor.execute("SELECT current_progress FROM members WHERE user_id = ?", (user_id,))
+        result = self.cursor.fetchall()
+        return result[0][0]
 
-        stage = road_map.get(str(studying_days))
-        return stage
+    def get_studying_stage(self, user_id):
+        self.cursor.execute("SELECT studying_stage FROM members WHERE user_id = ?", (user_id,))
+        result = self.cursor.fetchall()
+        return result[0][0]
 
-    async def add_data_to_json(self, name: str, added_date: str):
-        with open(self.members_json, "r") as file:
-            participants = json.load(file)
-        participants.append({"name": name, "added_date": added_date, "current_progress": "1",
-                             "studying_stage": 'установка python и IDE, первая программа "Hello World!"'})
-        with open(self.members_json, "w") as file:
-            json.dump(participants, file, ensure_ascii=False, indent=4)
+    def next_stage(self, current_progress):
+        self.cursor.execute('SELECT studying_stage FROM road_map WHERE current_progress = ?',
+                            (current_progress + 1,))
+        next_stage = self.cursor.fetchall()
+        return next_stage[0][0]
 
+    def previous_stage(self, current_progress):
+        self.cursor.execute('SELECT studying_stage FROM road_map WHERE current_progress = ?',
+                            (current_progress - 1,))
+        previous_stage = self.cursor.fetchall()
+        return previous_stage[0][0]
+
+    # Удаление данных о студенте из базы данных
     @staticmethod
-    def studying_days(added_date: str):
-        if added_date:
-            date = datetime.datetime.strptime(added_date, '%d.%m.%Y')
-        else:
-            date = datetime.datetime.strptime('01.01.2000', '%d.%m.%Y')
-        today = datetime.datetime.now()
-        return (today - date).days
+    def delete_student_data(name):
+        conn = sqlite3.connect('data.db')
+        c = conn.cursor()
 
-    def get_data_from_json(self, name: str):
-        with open(self.members_json, "r") as file:
-            members = json.load(file)
-            if name in members:
-                stage = members['name']['studying_stage']
-                return stage
+        c.execute("DELETE FROM members WHERE name = ?", (name,))
+
+        conn.commit()
+        conn.close()
+
+    def studying_days(self, user_id):
+        join_date = self.get_added_date(user_id)
+        current_date = datetime.datetime.now()
+        days = (current_date - join_date).days
+        return days
